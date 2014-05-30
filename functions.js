@@ -8,6 +8,9 @@ DBCollection.prototype.findTS = function(query , fields , limit , skip ){
 }
 
 
+
+
+
 //Removes data from all collections (except system.indexes) of current database
 function removeData
   var list=db.getCollectionNames();
